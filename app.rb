@@ -1,5 +1,9 @@
 require 'sinatra'
 
 get '/' do
-  "Hello World!"
+  erb :form
+end
+
+post '/' do
+  "send message..."
 end
